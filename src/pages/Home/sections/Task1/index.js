@@ -1,9 +1,11 @@
 import React from "react";
 
 import { ExamplePreview } from "components/ExamplePreview";
+import { Slider } from 'components/Slider'
 import * as Section from "components/PageSection";
 
 import previewImg from "./assets/slider.gif";
+
 
 export const Task1 = () => (
   <Section.Wrapper>
@@ -31,7 +33,7 @@ export const Task1 = () => (
           Place your slider below this paragraph.
         </Section.Description>
       </Section.Header>
-      {/* Please, put your `<Slider />` component here. */}
+       <Slider />
     </Section.Content>
   </Section.Wrapper>
 );
