@@ -16,3 +16,15 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
 `;
+
+export const Navigation = styled.div`
+  height: 100%;
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+`
+
+export const NavLink = styled.div`
+  align-self: center;
+  font-weight: bold;
+`
