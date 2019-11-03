@@ -21,6 +21,7 @@ export const SliderWrapper = styled.div`
   
   position: absolute;
   left: 0;
+  overflow: hidden;
   
   ::before {
     content: '';
